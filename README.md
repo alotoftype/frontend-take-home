@@ -51,9 +51,12 @@ Good luck! :raised_hands:
 | `test` | Runs project tests and type check |
 
 ## Spec
-- You should spent three hours maximum working on this project
+- We expect you to spend three hours working on this project
+- What you’re going to be working on is essentially a multi-part form wizard; don’t worry about the name pre-approval
+- We are not particularly interested about specific knowledge on React or any other piece of technology
+- The idea of this project is to simulate a working environment similar to the one you will find with our team; we want to see how you would perform given these constraints
 - The design files were built using [Figma][figma] and should be available [here (under the “D_Happy-Path” page)][figma-file]
-- Do not worry about a mobile version; focus on building a great desktop  experience
+- Do not worry about a mobile version; focus on building a great desktop experience
 - Do not worry about browser support; assume we only support the latest and greatest versions of modern browsers
 - Build the UI as close to the design file as you can
 - We do not believe in “pixel-perfect”; make sure the UI looks consistent by approximating or tweaking values from the already available theme values but avoid one-offs and magic numbers
@@ -62,7 +65,7 @@ Good luck! :raised_hands:
 - The sidebar component hasn’t been styled much, this is a task for you
 - Implement inline validation for form elements based on their input type
 - Implement page-level validation for each of the steps; a user shouldn’t be able to go to step two if step one has invalid data
-- Build an auto complete input field to be used for street addresses (refer to the one we have on our live [preapproval flow][preapp]); add at least one story in Storybook for it and at least one test
+- Build an auto complete input field to be used for street addresses (refer to the one we have on our live [pre-approval flow][preapp]); add at least one story in Storybook for it and at least one test
 - There are a few missing steps for “Pre-approval”, you’ll have to implement them
 - There is already a “success” page built; it’s available at `/approved`
 - There is a broken test, you should fix it
@@ -73,7 +76,6 @@ Good luck! :raised_hands:
 - Extract recurring patterns and duplicate code into reusable modules
 - Persist form data during navigation
 - Tests
-- An organized and thoughtful list of Git commits
 - UI animations
 - Dark mode
 
