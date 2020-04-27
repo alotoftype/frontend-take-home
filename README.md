@@ -70,15 +70,6 @@ Good luck! :raised_hands:
 - There is already a “success” page built; it’s available at `/approved`
 - There is a broken test, you should fix it
 
-## Bonus
-- Consistent code formatting
-- Keyboard navigation works seamlessly with the auto complete input field
-- Extract recurring patterns and duplicate code into reusable modules
-- Persist form data during navigation
-- Tests
-- UI animations
-- Dark mode
-
 ## Submit
 Once you are finished, send us your project via [Greenhouse][greenhouse].
 
